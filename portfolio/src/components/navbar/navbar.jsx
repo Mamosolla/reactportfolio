@@ -1,37 +1,11 @@
 import React, { Component } from "react";
-import Home from "../home/home.jsx";
 export class navbar extends Component {
   render() {
     return (
-      // <div className="navbar bg-base-100">
-      //   <div className="flex-1">
-      //     <a href="navbar" className="btn btn-ghost normal-case text-xl">
-      //       Kagiso's Portfolio
-      //     </a>
-      //   </div>
-      //   <div className="flex-none">
-      //     <ul className="menu menu-horizontal p-0">
-      //       <li>
-      //         <a href="navbar">Home</a>
-      //       </li>
-      //       <li tabIndex={0}>
-      //         <li>
-      //           <a href="navbar">About</a>
-      //         </li>
-      //         <li>
-      //           <a href="navbar">Resume</a>
-      //         </li>
-      //       </li>
-      //       <li>
-      //         <a href="navbar">Contacts</a>
-      //       </li>
-      //     </ul>
-      //   </div>
-      // </div>
-      <div className="navbar bg-base-100">
+      <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] ">
         <div className="flex-1">
           <a href="Home" className="btn btn-ghost normal-case text-xl">
-            Kagiso Mamosolla
+      
           </a>
         </div>
         <div className="flex-none">
@@ -47,7 +21,7 @@ export class navbar extends Component {
                 height="24"
                 viewBox="0 0 24 24"
                 stroke-width="2"
-                stroke="currentColor"
+                stroke="white"
                 fill="none"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -69,15 +43,13 @@ export class navbar extends Component {
                 <a href="Resume">Resume</a>
               </li>
               <li>
-                <a href="Portfolio">Portfolio</a>
-              </li>
-              <li>
                 <a href="Contact">Contact</a>
               </li>
             </ul>
           </div>
         </div>
       </div>
+      
     );
   }
 }
