@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
+
 const Contacts = () => {
   const form = useRef();
 
@@ -17,6 +18,7 @@ const Contacts = () => {
       .then(
         (result) => {
           console.log(result.text);
+          alert("You email is sent");
         },
         (error) => {
           console.log(error.text);
@@ -62,13 +64,14 @@ const Contacts = () => {
           rows="10"
           placeholder="Message"
         ></textarea>
+
         <button className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center">
           Let's Collaborate
         </button>
       </form>
+  
     </div>
   );
 };
 
 export default Contacts;
-
