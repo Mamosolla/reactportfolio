@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export class resume extends Component {
   render() {
     return (
-      <section>
+   
         <div className="min-h-screen bg-[#0a192f]">
             <h1 className="text-5xl font-bold text-white flex justify-center mb-6">Resume</h1>
           <div className="flex flex-col w-full lg:flex-row">
@@ -27,7 +27,7 @@ export class resume extends Component {
             </div>
           </div>
         </div>
-      </section>
+
     );
   }
 }
