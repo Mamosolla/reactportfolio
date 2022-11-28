@@ -26,7 +26,7 @@ const About = () => {
               Full-stack Developer dealing with both frontend and backend.
             </p>
           </div>
-          <div className="img">
+          <div className="img mb-20">
             <img
               src={require("../../assets/images/IMG-20221128-WA0006.jpg")}
               className="max-w-sm rounded-lg shadow-2xl h-80"

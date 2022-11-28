@@ -5,7 +5,7 @@ export class home extends Component {
     return (
       <div
         className="hero min-h-screen"
-        style={{ backgroundImage: `url("https://placeimg.com/1000/800/arch")` }}
+        style={{ background: '#0a192f' }}
         
       >
             <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
